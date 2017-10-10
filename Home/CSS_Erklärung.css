@@ -1,0 +1,26 @@
+html, body{
+    margin: 0px;
+    background-color: black;
+}
+
+.gray{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: gray;
+}
+#shop{
+    color: white;
+    font-size: 70px;
+    padding-left: 20%;
+    padding-top: 20%;
+}
+.strich{
+    height: 600px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -350px;
+    left: 50%;
+
+}
