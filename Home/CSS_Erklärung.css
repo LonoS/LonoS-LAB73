@@ -1,26 +1,67 @@
 html, body{
     margin: 0px;
     background-color: black;
+    font-family: "SF Pro Display";
+    color: white;
 }
+.überschrift{
 
-.gray{
+    font-weight: bold;
+
     height: 100%;
     width: 100%;
-    background-color: gray;
-    color: gray;
+    font-size: 6cm;
+    text-align: center;
 }
-#shop{
-    color: white;
-    font-size: 70px;
-    padding-left: 20%;
-    padding-top: 20%;
-}
-.strich{
-    height: 600px;
-    width: 2px;
-    background-color: white;
-    position: relative;
-    top: -350px;
-    left: 50%;
+.Logo{
+    position: absolute;
+    top: 80%;
+    left: 1%;
 
 }
+.bar{
+    height: 7px;
+    width: 50px;
+    margin: 7px;
+    background-color: white;
+}
+.Menu{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.line{
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 10%
+
+
+
+}
+.ueber{
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    font-size: 2cm;
+    font-weight: 800;
+
+
+
+
+}
+.Text{
+
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    top: 120%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+
+
+}
+
