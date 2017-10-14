@@ -15,8 +15,8 @@ html, body{
 }
 .Logo{
     position: absolute;
-    top: 80%;
-    left: 1%;
+    top: 1%;
+    right: 1%;
 
 }
 .bar{
@@ -44,9 +44,9 @@ html, body{
 .ueber{
     position: absolute;
     top: 100%;
-    left: 20%;
+    left: 10%;
     font-size: 2cm;
-    font-weight: 800;
+    font-weight: 600;
 
 
 
@@ -55,12 +55,12 @@ html, body{
 .Text{
 
     position: absolute;
-    left: 70%;
-    right: 5%;
-    top: 120%;
-    text-align: center;
+    left: 50%;
+    right: 10%;
+    top: 130%;
+    text-align: inherit;
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 400;
 
 
 }
