@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../HomeTab/NavCSS.css">
     <link rel="stylesheet" href="../HomeTab/CSS_Startseite.css">
     <link rel="stylesheet" href="../HomeTab/CSS_Erklärung.css">
+    <link rel="stylesheet" href="ContactField.css">
 </head>
 <body>
 
@@ -41,11 +42,34 @@
             Hier kannst du uns erreichen falls du irgendwelche Vorschläge, Wünsche oder Feedback hast.
         </p>
     </div>
-    <div class="mail">
-    <p>E-Mail:</p>
-    <a href="">lonosgames@gmail.com</a>
 
-    </div>
+
+
+
+<div class="container">
+    <form action="/action_page.php">
+
+        <label for="fname">Vorname</label>
+        <input type="text" id="fname" name="firstname" placeholder="Dein Vorname..">
+
+        <label for="lname">Nachname</label>
+        <input type="text" id="lname" name="lastname" placeholder="Dein Nachname..">
+
+        <label for="country">Land</label>
+        <select id="country" name="country">
+            <option value="australia">Österreich</option>
+            <option value="canada">Deutschland</option>
+            <option value="usa">Schweiz</option>
+
+        </select>
+
+        <label for="subject">Inhalt</label>
+        <textarea id="subject" name="subject" placeholder="Schreibe uns hier dein Feedback, Vorschläge oder Wünsche auf.." style="height:200px"></textarea>
+
+        <input type="submit" value="Fertig">
+
+    </form>
+</div>
 
 
 <script>
